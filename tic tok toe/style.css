@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(105deg, #048686 , black);
+}
+html{
+    font-size: 16px; 
+}
+.main{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+}
+#restart{
+    font-size: 1.4em;
+    margin-top: 15px;
+    padding: 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    position: relative;
+    margin: 1em auto 0 auto;
+    display: block;
+}
+.container{
+    width: 65vmin;
+    height: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+.button-bhaiya{
+    background: white;
+    box-shadow: 0 0 14px #048686(0 ,0,0,0.1);
+    width: 20vmin;
+    height: 20vmin;
+    border: 0;
+    border-radius: 10px;
+    font-size: 12vmin;
+    color: #048686;
+}
+.tittle{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 40px;
+    text-shadow: #048686;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.alert{
+    background: linear-gradient(134deg , #048686 , black );
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 12vmin;
+}
+#new-game{
+    font-size: 0.6em;
+    padding: 0.5em 1em;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+#message{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+.alert.hide{
+    display: none;
+}
